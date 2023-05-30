@@ -11,10 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hotdog device
 $(call inherit-product, device/oneplus/hotdog/device.mk)
 
-<<<<<<< HEAD:lineage_hotdog.mk
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-=======
 # Inherit some common Cherish stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
@@ -41,10 +37,9 @@ CHERISH_MAINTAINER := Shripad
 CHERISH_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Shripad
 BUILD_HOSTNAME := Cherish
->>>>>>> 1d6a64f (Cherish OS bringup):cherish_hotdog.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_hotdog
+PRODUCT_NAME := cherish_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := HD1911
